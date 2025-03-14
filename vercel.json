@@ -1,7 +1,0 @@
-{
-  "framework": "nextjs",
-  "buildCommand": "npm install --no-package-lock && npm run build",
-  "installCommand": "npm install --no-package-lock",
-  "outputDirectory": ".next",
-  "nodeVersion": "18.x"
-} 
