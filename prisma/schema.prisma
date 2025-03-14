@@ -4,6 +4,7 @@ generator client {
 }
 
 datasource db {
+
   provider  = "postgresql"
   url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
@@ -56,6 +57,7 @@ model subscriptions_plans {
   plan_id      String
   name         String
   description  String
+  
   amount       String
   currency     String
   interval     String
